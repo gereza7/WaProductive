@@ -7,6 +7,20 @@
     "_name": "_267c3136"
   },
   {
+    "name": "oficina",
+    "path": "/oficina",
+    "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/oficina.vue",
+    "chunkName": "pages/oficina",
+    "_name": "_7eef8d1d"
+  },
+  {
+    "name": "saladereuniones",
+    "path": "/saladereuniones",
+    "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/saladereuniones.vue",
+    "chunkName": "pages/saladereuniones",
+    "_name": "_7dc57b38"
+  },
+  {
     "name": "auth-signin",
     "path": "/auth/signin",
     "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/auth/signin.vue",

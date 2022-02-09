@@ -5,6 +5,8 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _267c3136 = () => interopDefault(import('../pages/chat.vue' /* webpackChunkName: "pages/chat" */))
+const _7eef8d1d = () => interopDefault(import('../pages/oficina.vue' /* webpackChunkName: "pages/oficina" */))
+const _7dc57b38 = () => interopDefault(import('../pages/saladereuniones.vue' /* webpackChunkName: "pages/saladereuniones" */))
 const _043e2c0a = () => interopDefault(import('../pages/auth/signin.vue' /* webpackChunkName: "pages/auth/signin" */))
 const _0b4d5de8 = () => interopDefault(import('../pages/auth/signout.vue' /* webpackChunkName: "pages/auth/signout" */))
 const _2860df54 = () => interopDefault(import('../pages/boards/_id.vue' /* webpackChunkName: "pages/boards/_id" */))
@@ -25,6 +27,14 @@ export const routerOptions = {
     path: "/chat",
     component: _267c3136,
     name: "chat"
+  }, {
+    path: "/oficina",
+    component: _7eef8d1d,
+    name: "oficina"
+  }, {
+    path: "/saladereuniones",
+    component: _7dc57b38,
+    name: "saladereuniones"
   }, {
     path: "/auth/signin",
     component: _043e2c0a,

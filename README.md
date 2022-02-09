@@ -1,4 +1,4 @@
-# trello-clone
+# WaProductive
 
 ## Build Setup
 
@@ -17,9 +17,4 @@ $ npm run start
 $ npm run generate
 ```
 
-## Video Tutorial
 
-[Video](https://youtu.be/E-s2MD8zBI8?list=PLoCOfLpxN8_XSn_g1R8CEGfTxOiIfoFs4)
-
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

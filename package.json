@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@daily-co/daily-js": "^0.22.0",
     "@nuxtjs/firebase": "^7.5.0",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",

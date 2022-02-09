@@ -51,13 +51,13 @@ export default {
       '@nuxtjs/firebase',
       {
         config: {
-          apiKey: 'AIzaSyDwa9qOb1dC8sb7C5ZQAzp_9WMmEN5szF4',
-          authDomain: 'wasocial-3e79f.firebaseapp.com',
-          databaseURL: 'https://wasocial-3e79f-default-rtdb.firebaseio.com',
-          projectId: 'wasocial-3e79f',
-          storageBucket: 'wasocial-3e79f.appspot.com',
-          messagingSenderId: '744192178281',
-          appId: '1:744192178281:web:5a00b2800c8e41f04d8af8'
+          apiKey: "AIzaSyDwa9qOb1dC8sb7C5ZQAzp_9WMmEN5szF4",
+          authDomain: "wasocial-3e79f.firebaseapp.com",
+          databaseURL: "https://wasocial-3e79f-default-rtdb.firebaseio.com",
+          projectId: "wasocial-3e79f",
+          storageBucket: "wasocial-3e79f.appspot.com",
+          messagingSenderId: "744192178281",
+          appId: "1:744192178281:web:5a00b2800c8e41f04d8af8"
         },
         services: {
           auth: {

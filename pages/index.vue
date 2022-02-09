@@ -193,7 +193,7 @@ export default {
           .then(function (docRef) {
             that.dialog = false
             that.$refs.form.reset()
-            that.snackbarText = 'Successfully created your board'
+            that.snackbarText = 'kanbas creado satisfactoriamente'
             that.snackbar = true
           })
           .catch(function (error) {})

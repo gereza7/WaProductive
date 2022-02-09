@@ -61,6 +61,16 @@
                       <v-icon>mdi-chat</v-icon>&nbsp;&nbsp;<b>Chat</b>
                     </nuxt-link>
                   </div>
+                   <div class="d-flex">
+                    <nuxt-link to="/saladereuniones">
+                      <v-icon>mdi-message-video</v-icon>&nbsp;&nbsp;<b>Sala de reuniones</b>
+                    </nuxt-link>
+                  </div>
+                  <div class="d-flex">
+                    <nuxt-link to="/oficina">
+                      <v-icon>mdi-office-building-outline</v-icon>&nbsp;&nbsp;<b>Oficina Virtual</b>
+                    </nuxt-link>
+                  </div>
                   <div class="d-flex">
                     <nuxt-link to="/auth/signout">
                       <v-icon>mdi-exit-to-app</v-icon>&nbsp;&nbsp;<b>Cerrar Sesión</b>

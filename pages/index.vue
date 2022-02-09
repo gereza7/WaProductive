@@ -91,9 +91,7 @@
         <v-card-title :style="board.image.downloadURL != '' ? 'color:#fff':''">
           {{ board.title }}
         </v-card-title>
-        <v-card-subtitle :style="board.image.downloadURL != '' ? 'color:#fff':''">
-          created {{ board.dateCreated | formatDate }}
-        </v-card-subtitle>
+       
       </v-card>
     </div>
     <v-snackbar

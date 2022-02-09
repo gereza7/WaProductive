@@ -37,7 +37,7 @@
                   <v-icon @click="drawer = false">mdi-close</v-icon>
 
                     <v-row no-gutters align="center" justify="end"> 
-                        <p class="jello-user">Usuario actual:<br>
+                        <p class="wa-user">Usuario actual:<br>
                         {{ $nuxt.$fire.auth.currentUser.email }}</p>
                         &nbsp;
                          <v-icon>mdi-account-circle-outline</v-icon>

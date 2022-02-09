@@ -37,8 +37,8 @@
             <v-icon @click="drawer = false">mdi-close</v-icon>
 
             <v-row no-gutters align="center" justify="end">
-              <p class="jello-user">
-                Signed in as<br />
+              <p class="wa-user">
+                Usuario actual:<br />
                 {{ $nuxt.$fire.auth.currentUser.email }}
               </p>
               &nbsp;
@@ -67,7 +67,7 @@
       </v-navigation-drawer>
     </div>
     <h1>{{ board.title }}</h1>
-    <small>created {{ board.dateCreated | formatDate }}</small>
+ 
     <div class="d-flex flex-row pr-6 pt-3">
        <div
         v-for="list in board.lists"
@@ -91,7 +91,10 @@
           @click="editCard(card)"
           v-bind:key="card.id"
         >
-          <v-card-text> {{ card.title }} </v-card-text>
+           <span class="headline"> {{ card.title }}</span>
+          <v-card-text> Autor: {{ card.nombre }} </v-card-text>
+         
+          <small> {{ board.dateCreated | formatDate }}</small>
         </v-card>
         
         
@@ -102,24 +105,30 @@
             listId = list.id
           "
           class="mt-auto"
-          >Add card</v-btn
+          >Añadir card</v-btn
         >
       </div>
        <v-dialog v-model="dialogCard" persistent max-width="600px">
         <v-card elevation="0">
           <v-card-title>
-            <span class="headline">Card name</span>
+            <span class="headline">Nombre</span>
           </v-card-title>
           <v-card-text>
             <v-container>
               <v-row>
                 <v-col cols="12">
                   <v-text-field
-                    label="Stuff to do"
+                    label="Tarea a realizar"
                     v-model="card.title"
                     required
                   ></v-text-field>
+                   <v-text-field
+                    label="Creador de la tarea"
+                    v-model="card.nombre"
+                    required
+                  ></v-text-field>
                 </v-col>
+                
               </v-row>
             </v-container>
           </v-card-text>
@@ -136,33 +145,34 @@
       </v-dialog>
       <div class="d-flex flex-row">
         <v-btn depressed @click="dialog = true" class="create-list"
-          >Create new list</v-btn
+          >Crear lista nueva</v-btn
         >
         <v-dialog v-model="dialog" persistent max-width="600px">
           <v-card elevation="0">
             <v-card-title>
-              <span class="headline">Personas</span>
+              <span class="headline">Lista nueva</span>
             </v-card-title>
             <v-card-text>
               <v-container>
                 <v-row>
                   <v-col cols="12">
                     <v-text-field
-                      label="Stuff to do"
+                      label="Nombre de la lista"
                       v-model="list.title"
                       required
                     ></v-text-field>
                   </v-col>
+                 
                 </v-row>
               </v-container>
             </v-card-text>
             <v-card-actions>
               <v-spacer></v-spacer>
               <v-btn color="blue darken-1" text @click="dialog = false">
-                Close
+                Cerrar
               </v-btn>
               <v-btn color="blue darken-1" text @click="createList()">
-                Save
+                Guardar
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -172,13 +182,15 @@
         <v-card elevation="0">
           <v-card-title>
             <span class="headline">{{ currentCard.title }}</span>
+            
+           
           </v-card-title>
           <v-card-text>
             <v-container>
               <v-row>
                 <v-col cols="12">
                   <v-text-field
-                    label="Edit title"
+                    label="Editar título"
                     v-model="currentCard.title"
                     required
                   ></v-text-field>
@@ -189,13 +201,13 @@
           <v-card-actions>
             <v-spacer></v-spacer>
             <v-btn color="red darken-1" text @click="deleteCard()">
-              Delete
+              Borrar
             </v-btn>
             <v-btn color="blue darken-1" text @click="dialogEditCard = false">
-              Close
+              Cerrar
             </v-btn>
             <v-btn color="blue darken-1" text @click="updateCard()">
-              Save
+              Guardar
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -216,6 +228,7 @@ export default {
       },
       card: {
         title: '',
+        nombre: ''
       },
       currentCard: {},
       cardDraggedId: '',

@@ -226,6 +226,8 @@ label {
   font-size: 1px;
 }
 
+
+
 .titulo{
      position:absolute;
    left:5%;

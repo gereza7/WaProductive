@@ -64,11 +64,11 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.9a6363e1.json",
+      "href": "/_nuxt/manifest.3f875a17.json",
       "hid": "manifest"
     }
   ],
   "htmlAttrs": {
-    "lang": "en"
+    "lang": "es"
   }
 }

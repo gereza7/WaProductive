@@ -3,42 +3,56 @@
     "name": "chat",
     "path": "/chat",
     "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/chat.vue",
-    "chunkName": "pages/chat"
+    "chunkName": "pages/chat",
+    "_name": "_267c3136"
   },
   {
     "name": "oficina",
     "path": "/oficina",
     "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/oficina.vue",
-    "chunkName": "pages/oficina"
+    "chunkName": "pages/oficina",
+    "_name": "_7eef8d1d"
   },
   {
     "name": "saladereuniones",
     "path": "/saladereuniones",
     "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/saladereuniones.vue",
-    "chunkName": "pages/saladereuniones"
+    "chunkName": "pages/saladereuniones",
+    "_name": "_7dc57b38"
+  },
+  {
+    "name": "slack",
+    "path": "/slack",
+    "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/slack.vue",
+    "chunkName": "pages/slack",
+    "_name": "_730e1ba2"
   },
   {
     "name": "auth-signin",
     "path": "/auth/signin",
     "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/auth/signin.vue",
-    "chunkName": "pages/auth/signin"
+    "chunkName": "pages/auth/signin",
+    "_name": "_043e2c0a"
   },
   {
     "name": "auth-signout",
     "path": "/auth/signout",
     "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/auth/signout.vue",
-    "chunkName": "pages/auth/signout"
+    "chunkName": "pages/auth/signout",
+    "_name": "_0b4d5de8"
   },
   {
     "name": "boards-id",
     "path": "/boards/:id?",
     "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/boards/_id.vue",
-    "chunkName": "pages/boards/_id"
+    "chunkName": "pages/boards/_id",
+    "_name": "_2860df54"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/german/Documents/WEBPROJECTS/WaProductive/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_1af7b3e4"
   }
 ]

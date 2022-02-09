@@ -7,6 +7,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _267c3136 = () => interopDefault(import('../pages/chat.vue' /* webpackChunkName: "pages/chat" */))
 const _7eef8d1d = () => interopDefault(import('../pages/oficina.vue' /* webpackChunkName: "pages/oficina" */))
 const _7dc57b38 = () => interopDefault(import('../pages/saladereuniones.vue' /* webpackChunkName: "pages/saladereuniones" */))
+const _730e1ba2 = () => interopDefault(import('../pages/slack.vue' /* webpackChunkName: "pages/slack" */))
 const _043e2c0a = () => interopDefault(import('../pages/auth/signin.vue' /* webpackChunkName: "pages/auth/signin" */))
 const _0b4d5de8 = () => interopDefault(import('../pages/auth/signout.vue' /* webpackChunkName: "pages/auth/signout" */))
 const _2860df54 = () => interopDefault(import('../pages/boards/_id.vue' /* webpackChunkName: "pages/boards/_id" */))
@@ -35,6 +36,10 @@ export const routerOptions = {
     path: "/saladereuniones",
     component: _7dc57b38,
     name: "saladereuniones"
+  }, {
+    path: "/slack",
+    component: _730e1ba2,
+    name: "slack"
   }, {
     path: "/auth/signin",
     component: _043e2c0a,

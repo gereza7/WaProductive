@@ -4,14 +4,14 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _267c3136 = () => interopDefault(import('../pages/chat.vue' /* webpackChunkName: "pages/chat" */))
-const _7eef8d1d = () => interopDefault(import('../pages/oficina.vue' /* webpackChunkName: "pages/oficina" */))
-const _7dc57b38 = () => interopDefault(import('../pages/saladereuniones.vue' /* webpackChunkName: "pages/saladereuniones" */))
-const _730e1ba2 = () => interopDefault(import('../pages/slack.vue' /* webpackChunkName: "pages/slack" */))
-const _043e2c0a = () => interopDefault(import('../pages/auth/signin.vue' /* webpackChunkName: "pages/auth/signin" */))
-const _0b4d5de8 = () => interopDefault(import('../pages/auth/signout.vue' /* webpackChunkName: "pages/auth/signout" */))
-const _2860df54 = () => interopDefault(import('../pages/boards/_id.vue' /* webpackChunkName: "pages/boards/_id" */))
-const _1af7b3e4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _ebedbd14 = () => interopDefault(import('../pages/chat.vue' /* webpackChunkName: "pages/chat" */))
+const _4d19b4dd = () => interopDefault(import('../pages/oficina.vue' /* webpackChunkName: "pages/oficina" */))
+const _222be2f8 = () => interopDefault(import('../pages/saladereuniones.vue' /* webpackChunkName: "pages/saladereuniones" */))
+const _fdc1993c = () => interopDefault(import('../pages/slack.vue' /* webpackChunkName: "pages/slack" */))
+const _519d9c8a = () => interopDefault(import('../pages/auth/signin.vue' /* webpackChunkName: "pages/auth/signin" */))
+const _5c060e28 = () => interopDefault(import('../pages/auth/signout.vue' /* webpackChunkName: "pages/auth/signout" */))
+const _f1115ed4 = () => interopDefault(import('../pages/boards/_id.vue' /* webpackChunkName: "pages/boards/_id" */))
+const _2908cba4 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -26,35 +26,35 @@ export const routerOptions = {
 
   routes: [{
     path: "/chat",
-    component: _267c3136,
+    component: _ebedbd14,
     name: "chat"
   }, {
     path: "/oficina",
-    component: _7eef8d1d,
+    component: _4d19b4dd,
     name: "oficina"
   }, {
     path: "/saladereuniones",
-    component: _7dc57b38,
+    component: _222be2f8,
     name: "saladereuniones"
   }, {
     path: "/slack",
-    component: _730e1ba2,
+    component: _fdc1993c,
     name: "slack"
   }, {
     path: "/auth/signin",
-    component: _043e2c0a,
+    component: _519d9c8a,
     name: "auth-signin"
   }, {
     path: "/auth/signout",
-    component: _0b4d5de8,
+    component: _5c060e28,
     name: "auth-signout"
   }, {
     path: "/boards/:id?",
-    component: _2860df54,
+    component: _f1115ed4,
     name: "boards-id"
   }, {
     path: "/",
-    component: _1af7b3e4,
+    component: _2908cba4,
     name: "index"
   }],
 

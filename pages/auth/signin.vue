@@ -1,11 +1,19 @@
 <template>
   <v-row align="center" justify="center">
     <v-col cols="12" sm="8" md="4" align="center">
-      <v-card class="elevation-4 text-left" >
-        <v-card-title class="fancy-title align-center justify-center">Jello</v-card-title><v-card-text>
-          <v-form>
+      <v-card class="elevation-4 text-left" style="background-color:#14876E; padding:50px" >
+
+                <div class="logo">
+   <v-img
+  lazy-src="https://i.ibb.co/pzCFV65/waproductive-logo.png"
+  src="https://i.ibb.co/pzCFV65/waproductive-logo.png"
+></v-img>
+                      </div>
+        
+        <v-card-text>
+          <v-form >
             <v-text-field
-              label="Login"
+              label="Correo"
               name="login"
               prepend-icon="mdi-account"
               type="text"
@@ -13,23 +21,29 @@
             ></v-text-field>
 
             <v-text-field
-              label="Password"
+              label="Contraseña"
               name="password"
               prepend-icon="mdi-lock"
               type="password"
               v-model="auth.password"
+              
             ></v-text-field>
           </v-form>
         </v-card-text>
         <v-card-actions class="text-center">
+
+        <div class="text-center2">
           <v-btn
             class="login-button"
             @click="login"
-            depressed
+            
             large
-            >Login</v-btn
+            absolute
+            >Entrar</v-btn
           >
+        </div>
         </v-card-actions>
+        
       </v-card>
       <v-snackbar
         :timeout="4000"
@@ -72,3 +86,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+
+
+</style>

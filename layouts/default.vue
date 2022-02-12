@@ -66,11 +66,6 @@
                       <v-icon>mdi-message-video</v-icon>&nbsp;&nbsp;<b>Sala de reuniones</b>
                     </nuxt-link>
                   </div>
-                   <div class="d-flex">
-                    <nuxt-link to="/slack">
-                      <v-icon>mdi-slack</v-icon>&nbsp;&nbsp;<b>Slack</b>
-                    </nuxt-link>
-                  </div>
                   <div class="d-flex">
                     <nuxt-link to="/oficina">
                       <v-icon>mdi-office-building-outline</v-icon>&nbsp;&nbsp;<b>Oficina Virtual</b>
@@ -88,6 +83,10 @@
         <!-- content -->
           <nuxt />
     </v-content>
+    
+
+
+    
   </v-app>
 </template>
 

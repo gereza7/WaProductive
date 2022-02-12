@@ -3,56 +3,48 @@
     "name": "chat",
     "path": "/chat",
     "component": "/Users/german/Documents/WEBPROJECTS/WaDefinitive/WaProductive/pages/chat.vue",
-    "chunkName": "pages/chat",
-    "_name": "_ebedbd14"
+    "chunkName": "pages/chat"
   },
   {
     "name": "oficina",
     "path": "/oficina",
     "component": "/Users/german/Documents/WEBPROJECTS/WaDefinitive/WaProductive/pages/oficina.vue",
-    "chunkName": "pages/oficina",
-    "_name": "_4d19b4dd"
+    "chunkName": "pages/oficina"
   },
   {
     "name": "saladereuniones",
     "path": "/saladereuniones",
     "component": "/Users/german/Documents/WEBPROJECTS/WaDefinitive/WaProductive/pages/saladereuniones.vue",
-    "chunkName": "pages/saladereuniones",
-    "_name": "_222be2f8"
+    "chunkName": "pages/saladereuniones"
   },
   {
     "name": "slack",
     "path": "/slack",
     "component": "/Users/german/Documents/WEBPROJECTS/WaDefinitive/WaProductive/pages/slack.vue",
-    "chunkName": "pages/slack",
-    "_name": "_fdc1993c"
+    "chunkName": "pages/slack"
   },
   {
     "name": "auth-signin",
     "path": "/auth/signin",
     "component": "/Users/german/Documents/WEBPROJECTS/WaDefinitive/WaProductive/pages/auth/signin.vue",
-    "chunkName": "pages/auth/signin",
-    "_name": "_519d9c8a"
+    "chunkName": "pages/auth/signin"
   },
   {
     "name": "auth-signout",
     "path": "/auth/signout",
     "component": "/Users/german/Documents/WEBPROJECTS/WaDefinitive/WaProductive/pages/auth/signout.vue",
-    "chunkName": "pages/auth/signout",
-    "_name": "_5c060e28"
+    "chunkName": "pages/auth/signout"
   },
   {
     "name": "boards-id",
     "path": "/boards/:id?",
     "component": "/Users/german/Documents/WEBPROJECTS/WaDefinitive/WaProductive/pages/boards/_id.vue",
-    "chunkName": "pages/boards/_id",
-    "_name": "_f1115ed4"
+    "chunkName": "pages/boards/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/german/Documents/WEBPROJECTS/WaDefinitive/WaProductive/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2908cba4"
+    "chunkName": "pages/index"
   }
 ]

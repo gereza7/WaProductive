@@ -1,16 +1,19 @@
 <template>
 
-  <main class="wrapper">
-    <div class="titulo home">
-      <h2>Seleccione la sala a la que desea entrar</h2>
-    </div>
-    <div style="border:black">
-      <v-card
-    class="mx-auto"
-    max-width="344"
-    outlined
-  >
+  <main class="wrapper" style="background-color:black">
+    
+<v-container>
+        <v-row>
+          <v-col
+
+            cols="4"
+          >
+            <v-card height="200">
+                  <div style="border:black">
+
+  
     <v-list-item three-line>
+      
       <v-list-item-content>
         <div class="text-overline mb-4">
           Meeting
@@ -25,7 +28,13 @@
         tile
         size="80"
         color="grey"
-      ></v-list-item-avatar>
+      >
+      <v-img
+  max-height="150"
+  max-width="250"
+  src="https://i.ibb.co/QnFVpQr/principal.png"
+></v-img>
+      </v-list-item-avatar>
     </v-list-item>
 
     <v-card-actions>
@@ -36,8 +45,247 @@
        
   
     </v-card-actions>
-  </v-card>
+
     </div>
+            </v-card>
+            
+          </v-col>
+          <v-col
+
+            cols="4"
+          >
+            <v-card height="200">
+                  <div style="border:black">
+
+  
+    <v-list-item three-line>
+      
+      <v-list-item-content>
+        <div class="text-overline mb-4">
+          Meeting
+        </div>
+        <v-list-item-title class="text-h5 mb-1">
+          Sala 01
+        </v-list-item-title>
+        <v-list-item-subtitle>Sala 01</v-list-item-subtitle>
+      </v-list-item-content>
+
+      <v-list-item-avatar
+        tile
+        size="80"
+        color="grey"
+      >
+      <v-img
+  max-height="150"
+  max-width="250"
+  src="https://i.ibb.co/VqSrrNW/01.png"
+></v-img>
+      </v-list-item-avatar>
+    </v-list-item>
+
+    <v-card-actions>
+      <div class="centrado">
+
+   <button v-on:click="submitJoinRoom" class="boton1">Entrar</button>
+      </div>
+       
+  
+    </v-card-actions>
+
+    </div>
+            </v-card>
+            
+          </v-col>
+          <v-col
+
+            cols="4"
+          >
+            <v-card height="200">
+                  <div style="border:black">
+
+  
+    <v-list-item three-line>
+      
+      <v-list-item-content>
+        <div class="text-overline mb-4">
+          Meeting
+        </div>
+        <v-list-item-title class="text-h5 mb-1">
+          Sala 02
+        </v-list-item-title>
+        <v-list-item-subtitle>Sala 02</v-list-item-subtitle>
+      </v-list-item-content>
+
+      <v-list-item-avatar
+        tile
+        size="80"
+        color="grey"
+      >
+      <v-img
+  max-height="150"
+  max-width="250"
+  src="https://i.ibb.co/X4XR2CL/02.png"
+></v-img>
+      </v-list-item-avatar>
+    </v-list-item>
+
+    <v-card-actions>
+      <div class="centrado">
+
+   <button v-on:click="submitJoinRoom" class="boton1">Entrar</button>
+      </div>
+       
+  
+    </v-card-actions>
+
+    </div>
+            </v-card>
+            
+          </v-col>
+        </v-row>
+              <v-row>
+          <v-col
+
+            cols="4"
+          >
+            <v-card height="200">
+                  <div style="border:black">
+
+  
+    <v-list-item three-line>
+      
+      <v-list-item-content>
+        <div class="text-overline mb-4">
+          Meeting
+        </div>
+        <v-list-item-title class="text-h5 mb-1">
+          Sala 03
+        </v-list-item-title>
+        <v-list-item-subtitle>Sala 03</v-list-item-subtitle>
+      </v-list-item-content>
+
+      <v-list-item-avatar
+        tile
+        size="80"
+        color="grey"
+      >
+      <v-img
+  max-height="150"
+  max-width="250"
+  src="https://i.ibb.co/dt1PWRf/03.png"
+></v-img>
+      </v-list-item-avatar>
+    </v-list-item>
+
+    <v-card-actions>
+      <div class="centrado">
+
+   <button v-on:click="submitJoinRoom" class="boton1">Entrar</button>
+      </div>
+       
+  
+    </v-card-actions>
+
+    </div>
+            </v-card>
+            
+          </v-col>
+          <v-col
+
+            cols="4"
+          >
+            <v-card height="200">
+                  <div style="border:black">
+
+  
+    <v-list-item three-line>
+      
+      <v-list-item-content>
+        <div class="text-overline mb-4">
+          Meeting
+        </div>
+        <v-list-item-title class="text-h5 mb-1">
+          Sala 04
+        </v-list-item-title>
+        <v-list-item-subtitle>Sala 04</v-list-item-subtitle>
+      </v-list-item-content>
+
+      <v-list-item-avatar
+        tile
+        size="80"
+        color="grey"
+      >
+      <v-img
+  max-height="150"
+  max-width="250"
+  src="https://i.ibb.co/nmmsMhC/04.png"
+></v-img>
+      </v-list-item-avatar>
+    </v-list-item>
+
+    <v-card-actions>
+      <div class="centrado">
+
+   <button v-on:click="submitJoinRoom" class="boton1">Entrar</button>
+      </div>
+       
+  
+    </v-card-actions>
+
+    </div>
+            </v-card>
+            
+          </v-col>
+          <v-col
+
+            cols="4"
+          >
+            <v-card height="200">
+                  <div style="border:black">
+
+  
+    <v-list-item three-line>
+      
+      <v-list-item-content>
+        <div class="text-overline mb-4">
+          Meeting
+        </div>
+        <v-list-item-title class="text-h5 mb-1">
+          Sala 05
+        </v-list-item-title>
+        <v-list-item-subtitle>Sala 05</v-list-item-subtitle>
+      </v-list-item-content>
+
+      <v-list-item-avatar
+        tile
+        size="80"
+        color="grey"
+      >
+      <v-img
+  max-height="150"
+  max-width="250"
+  src="https://i.ibb.co/RpcBrP0/05.png"
+></v-img>
+      </v-list-item-avatar>
+    </v-list-item>
+
+    <v-card-actions>
+      <div class="centrado">
+
+   <button v-on:click="submitJoinRoom01" class="boton1">Entrar</button>
+      </div>
+       
+  
+    </v-card-actions>
+
+    </div>
+            </v-card>
+            
+          </v-col>
+        </v-row>
+      </v-container>
+
+
    
 
     <div class="call-container" :class="{ hidden: status === 'home' }">
@@ -50,6 +298,7 @@
         :callFrame="callFrame"
       />
     </div>
+    
   </main>
 </template>
 
@@ -73,6 +322,7 @@ export default {
   data() {
     return {
       roomUrl: "https://waproductive.daily.co/Principal",
+      roomUrl01: "https://waproductive01.daily.co/01",
       status: "home",
       callFrame: null,
       validRoomURL: true,
@@ -138,6 +388,10 @@ export default {
       e.preventDefault();
       this.joinRoom(this.roomUrl);
     },
+     submitJoinRoom01(e) {
+      e.preventDefault();
+      this.joinRoom(this.roomUrl01);
+    },
     validateInput(e) {
       this.validRoomURL = !!this.roomUrl && e.target.checkValidity();
     },
@@ -152,9 +406,7 @@ export default {
   display: flex;
   align-items: center;
 }
-.home {
-  flex: 1;
-}
+
 .error {
   color: var(--red-dark);
 }
@@ -242,6 +494,9 @@ label {
 background-color: #14876E;
 padding: 10px;
 border-radius: 10px;
+margin-left: 65px;
+margin-bottom: 20px;
+
 
 }
 

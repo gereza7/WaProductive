@@ -295,6 +295,7 @@
       <controls
         v-if="status === 'call'"
         :roomUrl="roomUrl"
+        :roomUrl02="roomUrl02"
         :callFrame="callFrame"
       />
     </div>
@@ -340,6 +341,7 @@ export default {
         .createRoom()
         .then((room) => {
           this.roomUrl = room.url;
+          this.roomUrl01 = room.url;
           this.joinRoom(room.url);
         })
         .catch((e) => {

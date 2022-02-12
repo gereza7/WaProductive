@@ -86,7 +86,7 @@
     <v-card-actions>
       <div class="centrado">
 
-   <button v-on:click="submitJoinRoom" class="boton1">Entrar</button>
+   <button v-on:click="submitJoinRoom01" class="boton1">Entrar</button>
       </div>
        
   

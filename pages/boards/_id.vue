@@ -54,14 +54,10 @@
             <div class="d-flex">
               <nuxt-link to="/">
                 <v-icon>mdi-view-dashboard-variant-outline</v-icon
-                >&nbsp;&nbsp;<b>Mis kanban</b>
+                >&nbsp;&nbsp;<b>Volver Atrás</b>
               </nuxt-link>
             </div>
-            <div class="d-flex">
-              <nuxt-link to="/auth/signout">
-                <v-icon>mdi-exit-to-app</v-icon>&nbsp;&nbsp;<b>Sign out</b>
-              </nuxt-link>
-            </div>
+           
           </div>
         </v-container>
       </v-navigation-drawer>
@@ -105,7 +101,7 @@
             listId = list.id
           "
           class="mt-auto"
-          >Añadir card</v-btn
+          >Añadir tarea</v-btn
         >
       </div>
        <v-dialog v-model="dialogCard" persistent max-width="600px">
